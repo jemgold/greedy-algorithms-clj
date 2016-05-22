@@ -1,7 +1,6 @@
 (ns greedy-algorithms.core-test
   (:use expectations)
-  (:require ;;[clojure.test :refer :all]
-            [greedy-algorithms.core :refer :all]))
+  (:require [greedy-algorithms.core :refer :all]))
 
 ;; coin-change
 

@@ -1,36 +1,22 @@
 # greedy-algorithms
 
-FIXME: description
+https://github.com/LondonAlgorithms/GreedyAlgorithms
 
 ## Installation
 
-Download from http://example.com/FIXME.
-
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar greedy-algorithms-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
+```
+lein expectations
+```
 
 ### Bugs
 
 ...
 
-### Any Other Sections
-### That You Think
-### Might be Useful
-
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016 Jon Gold
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.

@@ -31,10 +31,9 @@
          ;; if it will fit use it - we reduce the amount and store and coin
          (coin-change (- amt biggest) coins (conj used biggest)))))))
 
-;; (defn sum
-;;   ([vals] (sum vals 0))
-;;   ([vals acc]
-;;    (if (empty? vals)
-;;      acc
-;;      (sum (rest vals) (+ (first vals) acc)))))
-
+(defn sum
+  ([vals] (sum vals 0))
+  ([vals acc]
+   (if (empty? vals)
+     acc
+     (sum (rest vals) (+ (first vals) acc)))))
