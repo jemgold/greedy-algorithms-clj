@@ -17,7 +17,7 @@
 ;; test-case-3
 (expect
  (coin-change 20000 [1])
- (range 20000))
+ (repeat 20000 1))
 
 ;; test-case-4
 ;; returns an empty list if impossible
