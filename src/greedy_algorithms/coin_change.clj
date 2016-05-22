@@ -1,4 +1,4 @@
-(ns greedy-algorithms.core
+(ns greedy-algorithms.coin-change
   (:gen-class))
 
 (defn coin-change

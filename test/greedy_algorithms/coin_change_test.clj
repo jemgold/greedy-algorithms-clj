@@ -1,6 +1,6 @@
-(ns greedy-algorithms.core-test
+(ns greedy-algorithms.coin-change-test
   (:use expectations)
-  (:require [greedy-algorithms.core :refer :all]))
+  (:require [greedy-algorithms.coin-change :refer :all]))
 
 ;; coin-change
 
