@@ -8,16 +8,10 @@
 (defn schedule-events
   ([inbox] (schedule-events (sort-by :finish inbox) []))
   ([inbox cal]
-   (if (empty? inbox)
-     cal
-     (let [next (first inbox)
-           last-sched (last cal)]
-       (println "next: " next)
-       (println "last: " last-sched)
-
-       (if (empty? cal)
-         (recur (rest inbox) (conj cal next))
-
-         (if (overlaps next last-sched)
-           (recur (rest inbox) cal)
-           (recur (rest inbox) (conj cal next))))))))
+   (let [next (first inbox)
+         last-sched (last cal)]
+     (cond
+       (empty? inbox) cal
+       (empty? cal) (recur (rest inbox) (conj cal next))
+       (overlaps next last-sched) (recur (rest inbox) cal)
+       :else (recur (rest inbox) (conj cal next))))))
