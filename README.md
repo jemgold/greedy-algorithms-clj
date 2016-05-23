@@ -1,8 +1,8 @@
 # greedy-algorithms
 
-https://github.com/LondonAlgorithms/GreedyAlgorithms
+Solutions for the London Algorithms meetup [greedy challenges](https://github.com/LondonAlgorithms/GreedyAlgorithms) in Clojure because I was bored.
 
-## Installation
+I [even wrote tests](https://github.com/jongold/greedy-algorithms-clj/tree/master/test/greedy_algorithms)
 
 ## Usage
 
